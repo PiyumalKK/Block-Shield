@@ -8,21 +8,21 @@ import '../styles/Projects.css'; // Custom CSS for the hover effect
 const projects = [
   {
     slug: 'project-1',
-    image: '../src/assets/A.jpg',
+    image: 'https://firebasestorage.googleapis.com/v0/b/mern-blog-2579f.appspot.com/o/A.jpg?alt=media&token=6d0859a8-c640-4251-b7db-740c1fcc6c48',
     title: 'Project 1',
     category: 'Category 1',
     content: '<p>Content for project 1</p>'
   },
   {
     slug: 'project-2',
-    image: '../src/assets/A.jpg',
+    image: 'https://firebasestorage.googleapis.com/v0/b/mern-blog-2579f.appspot.com/o/A.jpg?alt=media&token=6d0859a8-c640-4251-b7db-740c1fcc6c48',
     title: 'Project 2',
     category: 'Category 2',
     content: '<p>Content for project 2</p>'
   },
   {
     slug: 'project-3',
-    image: '../src/assets/A.jpg',
+    image: 'https://firebasestorage.googleapis.com/v0/b/mern-blog-2579f.appspot.com/o/A.jpg?alt=media&token=6d0859a8-c640-4251-b7db-740c1fcc6c48',
     title: 'Project 3',
     category: 'Category 3',
     content: '<p>Content for project 3</p>'
