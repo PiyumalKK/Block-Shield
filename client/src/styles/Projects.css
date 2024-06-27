@@ -1,0 +1,102 @@
+/* Projects.css */
+
+.projects-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.project-card-container {
+  transition: transform 0.3s ease;
+}
+
+.slick-track {
+  height: 500px; /* Adjust height as needed */
+  margin-top: 50px;
+  margin-left: 32px;
+  
+}
+
+.slick-center .project-card-container {
+  transform: scale(1.1);
+}
+
+.project-card img {
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover img {
+  transform: scale(1.1);
+}
+
+.slick-slide {
+  display: flex;
+  justify-content: center;
+}
+
+/* Styling for slick dots */
+.slick-dots {
+  bottom: 20px;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: rgb(11, 84, 84);
+  
+
+}
+
+.slick-dots li {
+  margin: 0 5px;
+}
+
+.slick-dots li button {
+  font-size: 0; /* Hide the button text */
+  line-height: 20px;
+  display: block;
+  width: 10px;
+  height: 10px;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: #ffffff; /* Default color for dots */
+}
+
+.slick-dots li.slick-active button {
+  color: #ffffff; /* Active color for dots */
+}
+
+/* Dark mode */
+.dark .slick-dots li button {
+  color: #fff; /* White color for dots in dark mode */
+}
+
+/* Styling for slick arrows */
+.slick,
+.slick {
+  font-size: 20px;
+  line-height: 1;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  color: #000000; /* Gray color for arrows in light mode */
+  border: none;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.slick-prev:focus,
+.slick-prev:hover,
+.slick-next:focus,
+.slick-next:hover {
+  color: #333; /* Darker gray on hover/focus for arrows */
+}
+
+/* Dark mode */
+.dark .slick-prev,
+.dark .slick-next {
+  color: #fff; /* White color for arrows in dark mode */
+}

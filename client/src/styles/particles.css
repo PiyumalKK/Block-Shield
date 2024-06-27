@@ -1,0 +1,29 @@
+body, html, #root, .main-content {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .particles-container {
+    position: relative;
+    height: calc(0vh - 200px); /* Adjust height to fit between header and footer */
+    width: 100%;
+    
+  }
+  
+  #tsparticles {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+  }
+  
+  .main-content {
+    position: relative;
+    z-index: 1;
+    min-height: calc(100vh - 200px); /* Adjust to fit content between header and footer */
+    padding: 200px;
+  }
+  

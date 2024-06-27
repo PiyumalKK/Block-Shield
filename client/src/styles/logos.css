@@ -1,0 +1,17 @@
+/* Styles for the logos in light mode */
+.logo-background {
+    position: relative;
+  }
+  
+  .logo-background::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.05); /* Light grey background */
+    z-index: -1;
+    border-radius: inherit; /* Match the parent div's border-radius */
+  }
+  
