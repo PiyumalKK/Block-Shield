@@ -29,14 +29,14 @@ const projects = [
   },
   {
     slug: 'project-4',
-    image: '../src/assets/A.jpg',
+    image: 'https://firebasestorage.googleapis.com/v0/b/mern-blog-2579f.appspot.com/o/A.jpg?alt=media&token=6d0859a8-c640-4251-b7db-740c1fcc6c48',
     title: 'Project 4',
     category: 'Category 4',
     content: '<p>Content for project 4</p>'
   },
   {
     slug: 'project-5',
-    image: '../src/assets/A.jpg',
+    image: 'https://firebasestorage.googleapis.com/v0/b/mern-blog-2579f.appspot.com/o/A.jpg?alt=media&token=6d0859a8-c640-4251-b7db-740c1fcc6c48',
     title: 'Project 5',
     category: 'Category 5',
     content: '<p>Content for project 5</p>'
