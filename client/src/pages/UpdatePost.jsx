@@ -132,9 +132,9 @@ export default function UpdatePost() {
             value={formData.category}
           >
             <option value="uncategorized">Select a Category</option>
-            <option value="ABC">ABC</option>
-            <option value="123">123</option>
-            <option value="ABCDE">ABCDE</option>
+            <option value="Exploit PostMorterm">Exploit PostMorterm</option>
+            <option value="Solidity Best Practises">Solidity Best Practises</option>
+            <option value="Web3 Protocol Integration">Web3 Protocol Integration</option> 
           </Select>
         </div>
         <div className="flex gap-4 items-center justify-between border-4
@@ -171,7 +171,7 @@ export default function UpdatePost() {
             setFormData({ ...formData, content: value });
           }}
         />
-        <Button type='submit' gradientDuoTone='purpleToPink'>
+        <Button type='submit' gradientDuoTone='purpleToBlue'>
           Update
         </Button>
         {

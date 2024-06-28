@@ -8,35 +8,35 @@ import '../styles/Projects.css'; // Custom CSS for the hover effect
 const projects = [
   {
     slug: 'project-1',
-    image: 'https://firebasestorage.googleapis.com/v0/b/mern-blog-2579f.appspot.com/o/A.jpg?alt=media&token=6d0859a8-c640-4251-b7db-740c1fcc6c48',
+    image: 'https://firebasestorage.googleapis.com/v0/b/mern-blog-2579f.appspot.com/o/A.jpg?alt=media&token=e9850d55-1a54-45da-97f8-d946a2aa9324',
     title: 'Project 1',
     category: 'Category 1',
     content: '<p>Content for project 1</p>'
   },
   {
     slug: 'project-2',
-    image: 'https://firebasestorage.googleapis.com/v0/b/mern-blog-2579f.appspot.com/o/A.jpg?alt=media&token=6d0859a8-c640-4251-b7db-740c1fcc6c48',
+    image: 'https://firebasestorage.googleapis.com/v0/b/mern-blog-2579f.appspot.com/o/A.jpg?alt=media&token=e9850d55-1a54-45da-97f8-d946a2aa9324',
     title: 'Project 2',
     category: 'Category 2',
     content: '<p>Content for project 2</p>'
   },
   {
     slug: 'project-3',
-    image: 'https://firebasestorage.googleapis.com/v0/b/mern-blog-2579f.appspot.com/o/A.jpg?alt=media&token=6d0859a8-c640-4251-b7db-740c1fcc6c48',
+    image: 'https://firebasestorage.googleapis.com/v0/b/mern-blog-2579f.appspot.com/o/A.jpg?alt=media&token=e9850d55-1a54-45da-97f8-d946a2aa9324',
     title: 'Project 3',
     category: 'Category 3',
     content: '<p>Content for project 3</p>'
   },
   {
     slug: 'project-4',
-    image: 'https://firebasestorage.googleapis.com/v0/b/mern-blog-2579f.appspot.com/o/A.jpg?alt=media&token=6d0859a8-c640-4251-b7db-740c1fcc6c48',
+    image: 'https://firebasestorage.googleapis.com/v0/b/mern-blog-2579f.appspot.com/o/A.jpg?alt=media&token=e9850d55-1a54-45da-97f8-d946a2aa9324',
     title: 'Project 4',
     category: 'Category 4',
     content: '<p>Content for project 4</p>'
   },
   {
     slug: 'project-5',
-    image: 'https://firebasestorage.googleapis.com/v0/b/mern-blog-2579f.appspot.com/o/A.jpg?alt=media&token=6d0859a8-c640-4251-b7db-740c1fcc6c48',
+    image: 'https://firebasestorage.googleapis.com/v0/b/mern-blog-2579f.appspot.com/o/A.jpg?alt=media&token=e9850d55-1a54-45da-97f8-d946a2aa9324',
     title: 'Project 5',
     category: 'Category 5',
     content: '<p>Content for project 5</p>'
@@ -108,7 +108,7 @@ function Projects() {
     <div className="projects-container p-6" style={{ marginBottom: '40px' }}>
       
       <div className=" bg-white dark:bg-gray-900  text-center p-6">
-        <h1 className="text-4xl font-bold  text-teal-700 dark:text-white mb-2">
+        <h1 className="text-4xl font-bold text-gradient text-teal-700 dark:text-white mb-2">
         Security Audit Reports
         </h1>
         <p className="text-xl text-gray-600 dark:text-gray-300 mb-4">

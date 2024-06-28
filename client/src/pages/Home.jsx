@@ -27,7 +27,8 @@ function Home() {
       
         <h1 className="text-3xl font-bold lg:text-6xl">
           Welcome to{" "}
-          <span className="px-2 ml-4 py-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-lg text-white">
+          <span className="px-2 ml-4 py-1 bg-gradient-to-r from-teal-400 via-blue-500 to-indigo-600
+ rounded-lg text-white">
             Block
           </span>{" "}
           <span className="ml-2 text-6xl">Shield</span>

@@ -45,7 +45,7 @@ if(res.ok)
 
 
   return (
-    <Button type='button' gradientDuoTone='pinkToOrange' outline onClick=
+    <Button type='button' gradientDuoTone="purpleToPink" outline onClick=
     {handleGoogleClick}>
     <AiFillGoogleCircle className="w-6 h-6 mr-2"/>
     Continue With Google

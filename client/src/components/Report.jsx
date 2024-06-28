@@ -13,7 +13,7 @@ export default function PostCard({ post }) {
           className="h-[260px] w-full object-cover transition-all duration-300 z-20 rounded-t-lg"
         />
       </a>
-      <div className="p-4 flex flex-col justify-between bg-teal-500 dark:bg-gray-800 rounded-b-lg">
+      <div className="p-4 flex flex-col justify-between bg-gradient-to-r from-teal-400 via-blue-500 to-indigo-600 dark:bg-gray-800 rounded-b-lg">
         <div>
           <p className="text-xl font-semibold line-clamp-2 text-center mb-4 text-white dark:text-white">{post.title}</p>
         </div>

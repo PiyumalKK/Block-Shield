@@ -155,7 +155,7 @@ const handleSubmit = async (e) => {
               />
               
               
-              <Button type ='submit' gradientDuoTone='purpleToPink'>
+              <Button type ='submit' gradientDuoTone="purpleToBlue">
                 Publish
               </Button>
               {
