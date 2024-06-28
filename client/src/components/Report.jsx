@@ -19,7 +19,7 @@ export default function PostCard({ post }) {
         </div>
         
         
-        <div className="  absolute bottom-0 left-0 right-0 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-lg text-white hover:text-white transition-all duration-300 text-center py-1 rounded-md !rounded-tl-none m-2 opacity-0 group-hover:opacity-100">
+        <div className="  absolute bottom-0 left-0 right-0 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-lg text-white hover:text-white transition-all duration-300 text-center py-1 rounded-md  m-2 opacity-0 group-hover:opacity-100">
           <a href='https://github.com/' target="_blank" rel="noopener noreferrer" className="block py-2 px-4">
             Go To Report
           </a>
