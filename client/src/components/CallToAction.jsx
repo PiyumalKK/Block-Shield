@@ -14,13 +14,13 @@ export default function CallToAction() {
               <p className="text-gray-500 my-2">
               Excellence in Smart Contract Security Auditing
               </p>
-              <Button gradientDuoTone="purpleToPink" className="rounded-tl-xl rounded-bl-none">
+              <Button gradientDuoTone="purpleToBlue" className="rounded-tl-xl rounded-bl-none">
                      <Link to="/dashboard?tab=request"
                      >Request Now</Link>
               </Button>
         </div>
         <div className="p-7 flex-1">
-            <img src="https://firebasestorage.googleapis.com/v0/b/mern-blog-2579f.appspot.com/o/B.jpg?alt=media&token=c3999152-6668-4aa0-866f-dda9fd3fe6fb" 
+            <img src="https://firebasestorage.googleapis.com/v0/b/mern-blog-2579f.appspot.com/o/B.jpg?alt=media&token=82415441-bef8-4baa-941c-849937398354" 
             alt="" />
         </div>
     </div>

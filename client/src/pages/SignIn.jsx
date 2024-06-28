@@ -58,7 +58,7 @@ function SignIn() {
         >
           <div className="flex items-center justify-center">
             <Link to="/" className="text-6xl font-bold text-gray-800 dark:text-white flex items-center">
-              <span className="px-2 py-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-lg text-white">
+              <span className="px-2 py-1 bg-gradient-to-r from-teal-400 via-blue-500 to-indigo-600 rounded-lg text-white">
               Block
               </span>{" "}
               <span className="ml-2 text-6xl">Shield</span>
@@ -109,7 +109,7 @@ function SignIn() {
                 className="border-gray-300 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white"
               />
             </div>
-            <Button gradientDuoTone="purpleToPink" type="submit" disabled={loading}>
+            <Button gradientDuoTone="purpleToBlue" type="submit" disabled={loading}>
               {loading ? (
                 <>
                   <Spinner size="sm" />
