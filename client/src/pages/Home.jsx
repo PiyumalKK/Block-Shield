@@ -23,7 +23,7 @@ function Home() {
     <div className="relative w-full h-full min-h-screen">
       
       {/* Main content */}
-      <div className="relative z-10 flex flex-col gap-6 p-28 px-3 max-w-6xl mx-auto text-center" >
+      <div className=" relative z-10 flex flex-col gap-6 p-28 px-3 max-w-6xl mx-auto text-center" >
       
         <h1 className="text-3xl font-bold lg:text-6xl">
           Welcome to{" "}
@@ -34,7 +34,7 @@ function Home() {
           <span className="ml-2 text-6xl">Shield</span>
         </h1>
         <p className="text-gray-500 text-3xl sm:text-sm mt-4">
-          First Sri Lanka's Blockchain Security Company!
+           Sri Lanka's First Blockchain Security Company!
         </p>
         <Link
           to="/search"
