@@ -55,10 +55,9 @@ function Header() {
     return (
         <Navbar className='border-b-2 sticky top-0 z-50 w-full'>
             <Link to="/" className="self-center whitespace-nowrap text-sm sm:text-xl font-semibold dark:text-white">
-                <span className="px-2 py-1 bg-gradient-to-r from-teal-400 via-blue-500 to-indigo-600
- rounded-lg text-white">Block
-                </span>
-                Shield
+            <span className="sr-only">Your Company</span>
+            <img className="h-8 w-auto" src="https://firebasestorage.googleapis.com/v0/b/mern-blog-2579f.appspot.com/o/logo%20B.svg?alt=media&token=2c6c3803-8227-493b-9bd7-ff228e881bd3" alt="" />
+              
             </Link>
             <form onSubmit={handleSubmit}>
                 <TextInput
@@ -75,7 +74,7 @@ function Header() {
             </Button>
             <div className="flex gap-2 md:order-2">
                 <Button className="w-12 h-10 sm:inline" color="gray" pill onClick={() => dispatch(toggleTheme())}>
-                    {theme === 'light' ? <FaSun /> : <FaMoon />}
+                    {theme === 'light' ? <FaMoon /> : <FaSun />}
                 </Button>
 
                 {currentUser ? (

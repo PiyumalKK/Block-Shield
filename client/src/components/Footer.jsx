@@ -12,9 +12,9 @@ function FooterCom() {
             <div className='grid w-full justify-between sm:flex md:grid-cols-1'>
                 <div className="mt-5">
                  <Link to="/" className="self-center whitespace-nowrap text-lg sm:text-xl font-semibold dark:text-white">
-                 <span className="px-2 py-1 bg-gradient-to-r from-teal-400 via-blue-500 to-indigo-600
- rounded-lg text-white">Block</span>
-                 Shield
+                 <img className="h-12 w-auto" src="https://firebasestorage.googleapis.com/v0/b/mern-blog-2579f.appspot.com/o/logo%20B.svg?alt=media&token=2c6c3803-8227-493b-9bd7-ff228e881bd3" alt="" />
+              
+                
                  </Link>
                 </div>
                 <div className="grid grid-cols-2 gap-8 sm: mt-4 sm:grid-cols-3 sm:gap-6">
