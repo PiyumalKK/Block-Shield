@@ -59,11 +59,8 @@ function SignUp() {
         >
           <div className="flex items-center justify-center">
             <Link to="/" className="text-6xl font-bold text-gray-800 dark:text-white flex items-center">
-              <span className="px-2 py-1 bg-gradient-to-r from-teal-400 via-blue-500 to-indigo-600
- rounded-lg text-white">
-                Block
-              </span>
-              <span className="ml-2 text-6xl">Shield</span>
+            <img className="mt-6 h-24 w-auto lg:h-32" src="https://firebasestorage.googleapis.com/v0/b/mern-blog-2579f.appspot.com/o/logo%20B.svg?alt=media&token=2c6c3803-8227-493b-9bd7-ff228e881bd3" alt="Logo" />
+             
             </Link>
           </div>
 
@@ -73,7 +70,7 @@ function SignUp() {
             animate={{ opacity: 1 }}
             transition={{ duration: 1 }}
           >
-            <h1 className="text-xl ml-3 mr-3 text-center font-semibold bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent dark:from-green-400 dark:to-blue-500">
+            <h1 className="text-xl text-center ml-3 mr-3 font-semibold bg-gradient-to-r from-purple-700 to-blue-400 bg-clip-text text-transparent dark:from-green-400 dark:to-blue-500">
               Welcome to Sri Lanka's First Blockchain Smart Contract Auditing Company!
             </h1>
           </motion.div>
