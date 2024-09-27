@@ -22,6 +22,7 @@ import ContactUs from './pages/ContactUs';
 import RequestPage from './pages/RequestPage';
 import ThankYou from './pages/ThankYou';
 import ParticlesComponent from './components/particles';
+import RequestUpdate from './pages/RequestUpdate';
 
 
 function App() {
@@ -32,8 +33,9 @@ function App() {
         <Header />
         <ParticlesComponent id='particles' />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} /> 
+        <Route path="/about" element={<About />} /> 
+        <Route path="/" element={<Home />} />
+         
           <Route path="/sign-in" element={<SignIn />} />
           <Route path="/sign-up" element={<SignUp />} />
           <Route path="/search" element={<Search />} />
@@ -45,6 +47,7 @@ function App() {
           <Route element={<PrivateRoute />}>
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/reqpage/:slug" element={<RequestPage />} />
+            <Route path="/updatereq/:slug" element={<RequestUpdate/>} />
           </Route>
           <Route element={<OnlyAdminPrivateRoute />}>
             <Route path="/create-post" element={<CreatePost />} />

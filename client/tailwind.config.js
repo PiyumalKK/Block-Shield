@@ -12,7 +12,11 @@ export default {
     
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'custom-orange': '#F4AC20',
+      },
+    },
   },
   plugins: [
     flowbite.plugin(),
